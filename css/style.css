@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+} */
+
+.min-100 {
+  min-height: 100vh;
+}
+
+.lh-copy {
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 30em) {
+  .measure-narrow-ns {
+    max-width: 16em;
+  }
+}
+
+.charter {
+  font-family: "Charter", georgia, serif;
+}
+
+.bg-white {
+  background-color: #f8f8f8;
+}
+
+.highlight {
+  background-color: #9EFD5F;
+  color: black;
+}
+
+.hover-yellow:hover,
+.hover-yellow:focus {
+  color: #5FA3FD;
+}
