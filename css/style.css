@@ -37,11 +37,20 @@ html {
 }
 
 .highlight {
-  background-color: #9EFD5F;
+  background-color: rgb(253, 95, 129);
   color: black;
 }
 
 .hover-yellow:hover,
 .hover-yellow:focus {
-  color: #5FA3FD;
+  color: rgb(245, 178, 198);
+
+}
+.{color},
+.{color}:visited {
+  color: #ffb700;
+}
+.{color},
+.{color}:link {
+  color: #ffb700;
 }
